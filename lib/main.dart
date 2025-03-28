@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
             builder: (context, value, child) {
               return MaterialApp(
                 debugShowCheckedModeBanner: false,
-                title: 'Buuk Ride',
+                title: 'Product Name',
                 theme: ThemeData(),
                 home: const LoadingPage(),
                 builder: (context, child) {
