@@ -44,9 +44,9 @@ String packageName = '';
 String signKey = '';
 
 //base url
-String url = 'https://buukride.com/'; //add '/' at the end of the url as 'https://url.com/'
+String url = 'base url'; //add '/' at the end of the url as 'https://url.com/'
 String mapkey =
-    (platform == TargetPlatform.android) ? 'AIzaSyAr3_67eZSLBYhlkPaI1KZXLYOI-qWpm-w' : 'ios map key';
+    (platform == TargetPlatform.android) ? 'android map key' : 'ios map key';
 
 String mapType = '';
 
