@@ -154,7 +154,7 @@ class _SupportPageState extends State<SupportPage> {
 
                       SubMenu(
                         onTap: () {
-                          openBrowser('https://buukride.com/privacy');
+                          openBrowser('privacy policy url');
                         },
                         text: languages[choosenLanguage]['text_privacy'],
                         icon: Icons.privacy_tip_outlined,

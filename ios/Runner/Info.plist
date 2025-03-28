@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Buuk Ride</string>
+	<string>Product Name</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -29,7 +29,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>app-1-315432285986-ios-facdf465887edc1783d77b</string>
+				<string>encoded app id from firebase</string>
 			</array>
 		</dict>
 	</array>
@@ -50,7 +50,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>Allow access to camera to capture photos for updating profile picture</string>
 	<key>NSContactsUsageDescription</key>
-	<string>Allow access to your contacts to select and add them for SOS assistance.</string>
+	<string>Allow contact access to select your contacts for adding in SOS</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>Program requires GPS to track cars and get ride</string>
 	<key>NSLocationAlwaysUsageDescription</key>
@@ -60,7 +60,7 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Program requires GPS to track cars and book ride</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow access to your microphone for better functionality.</string>
+	<string>Allow access to microphone</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Allow access to photo library to pick photos for updating profile picture</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>

@@ -92,7 +92,7 @@ class _AggreementPageState extends State<AggreementPage> {
                           child: MyText(
                             text: languages[choosenLanguage]['text_welcome_to']
                                 .toString()
-                                .replaceAll('5555', 'Buuk Ride'),
+                                .replaceAll('5555', 'Product Name'),
                             size: media.width * sixteen,
                             fontweight: FontWeight.bold,
                           ),
@@ -133,7 +133,7 @@ class _AggreementPageState extends State<AggreementPage> {
                                       recognizer: TapGestureRecognizer()
                                         ..onTap = () {
                                           openBrowser(
-                                              'https://buukride.com/terms');
+                                              'terms and conditions url');
                                         }),
                                   TextSpan(
                                       text: languages[choosenLanguage]
@@ -147,7 +147,7 @@ class _AggreementPageState extends State<AggreementPage> {
                                       ),
                                       recognizer: TapGestureRecognizer()
                                         ..onTap = () {
-                                          openBrowser('https://buukride.com/privacy');
+                                          openBrowser('privacy policy url');
                                         }),
                                 ],
                               ),
